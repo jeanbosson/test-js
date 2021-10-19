@@ -1,0 +1,260 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #F6F6F6;
+    font-family: 'Rubik',sans-serif;
+    
+
+}
+
+/* class */
+
+.one{
+    display: inline;
+    padding: 0;
+
+}
+
+.one li{
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+.sign{
+    justify-content: space-around;
+    padding: 20px;
+}
+.sign-up{
+    border: 1px red solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: red;
+    margin: 10px;
+}
+/* content1 */
+.menu1{
+    width: 555px;
+height: 60px;
+}
+/* bar */
+.separator{
+    width: 1px;
+    height: 100px;
+    background-color: #999999;
+    margin: 20px;
+
+}
+
+/* inside */
+.inside2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+.inside3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+.inside3 li{
+    list-style-type: none;
+    margin: 10px;
+    
+
+}
+.choose{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.table li{
+    list-style-type: none;
+}
+.emoji{
+    color: #2FAB73;
+}
+
+/* global */
+.fast-vpn{
+    font-size: 35px;
+}
+.global-vpn{
+    font-size: 16px;
+}
+
+/* cv */
+.figure{
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    border-radius: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 230px;
+    align-items: center;
+
+    padding: 10px;
+    width: 400px;
+    height: 230px;
+    align-items: center;
+   
+    justify-content: center;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-start;
+}
+.survole2{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    background-color: #F53838;
+    box-shadow: 1px 5px 10px red;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logofb{
+    display: flex;
+}
+
+
+
+
+
+/* ID */
+/* header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    
+    
+    }
+    /* content1 */
+#content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    }
+
+/* bar */
+#bar{
+    display: flex;
+    border: 1px black solid;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px #0D1025 ;  
+    /* horizontal vertical et adoucicement et couleur  */
+}
+/* inside */
+
+#inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+   
+}
+/* choose */
+#choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: 10px;
+
+}
+#choose p{
+    font-size: 16px;
+}
+
+#statut{
+    display: flex;
+}
+
+#gbobal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    font-family: 'Rubik',sans-serif;
+
+}
+
+#vector-word{
+    background-color: #F6F6F6;
+    width: 1060px;
+    height: 537.77px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+#happy{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+#cv{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: auto;
+
+}
+#fleche{
+    display: flex;
+    flex-direction: row;
+}
+#survole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:  #FFFFFF;
+}
+
+#footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#footer li{
+    list-style-type: none;
+    
+}
+#foooter ul{
+
+    padding: 0px;
+    background-color: red;
+}
