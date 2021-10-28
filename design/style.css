@@ -36,6 +36,17 @@ body{
     width: 555px;
 height: 60px;
 }
+/* strong */
+.men2{
+    position: absolute;
+    border: 1px black solid;
+    border-bottom: 10px solid rgba(24, 56, 56, 0.35);
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #F53838;
+}
 /* bar */
 .separator{
     width: 1px;
@@ -45,6 +56,18 @@ height: 60px;
 
 }
 
+.bar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar1 p{
+    display: flex;
+    flex-direction: row;
+
+
+}
 /* inside */
 .inside2{
     display: flex;
@@ -72,13 +95,68 @@ height: 60px;
 .table{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width: 330px;
+    height: 760px;
+
+}
+.table ul{
+    display: flex;
+    flex-direction: column;
 }
 .table li{
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+.bottom{
+    text-align: center;
+    font-size: 25px;
+}
+
+.select{
+    border: 2px solid #F53838;    border-radius: 10px;
+    border-radius: 50px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #F53838;
+    font-size: 16px;
 }
 .emoji{
     color: #2FAB73;
+}
+/* fleche */
+.union{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.union li{
+    list-style-type: none;
+    display: inline;
+}
+
+.ellipse1{
+        border: 1px  solid #F53838;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 10px;
+            color: #F53838 ;
+    }
+
+.ellipse2{
+    border: 1px  solid #F53838;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+            background-color: #F53838;
 }
 
 /* global */
@@ -99,12 +177,9 @@ height: 60px;
     width: 400px;
     height: 230px;
     align-items: center;
-
     padding: 10px;
     width: 400px;
     height: 230px;
-    align-items: center;
-   
     justify-content: center;
 }
 
@@ -121,14 +196,26 @@ height: 60px;
     box-shadow: 1px 5px 10px red;
 }
 
-.footer1{
+.footer0{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
-#logofb{
+.footer1{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
+
+
+.logofb{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+} 
+
 
 
 
@@ -159,12 +246,16 @@ height: 60px;
     display: flex;
     border: 1px black solid;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 15px;
     background-color: #FFFFFF;
-    box-shadow: 0px 10px 20px #0D1025 ;  
+    align-items: center;
+    box-shadow: 0px 3px 1px -1px rgb(0 0 0 / 50%); 
     /* horizontal vertical et adoucicement et couleur  */
 }
+
+
+
 /* inside */
 
 #inside{
@@ -188,6 +279,17 @@ margin: 10px;
 
 #statut{
     display: flex;
+    margin: 30px;
+}
+#threeblock{
+    width: 1060px;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+
 }
 
 #gbobal{
@@ -196,6 +298,8 @@ margin: 10px;
     align-items: center;
     margin: 15px;
     font-family: 'Rubik',sans-serif;
+    /* position: relative;
+    top: 100px ; */ 
 
 }
 
@@ -206,10 +310,11 @@ margin: 10px;
 }
 
 #logo{
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 30px;
+  
 
 }
 #happy{
@@ -226,8 +331,12 @@ margin: auto;
 
 }
 #fleche{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
 }
 #survole{
     display: flex;
@@ -240,21 +349,38 @@ margin: auto;
     padding: 30px;
     background-color:  #FFFFFF;
 }
-
+/* footer */
 #footer{
     width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 20px;
+    font-size: 16px;
 }
 
 #footer li{
     list-style-type: none;
+    
     
 }
 #foooter ul{
 
     padding: 0px;
     background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
+#footer p{
+    width: 340px;
+}
+#footer li{
+    /* le decalage */
+    position: relative;
+    right: 20px;
+    padding: 10px;
+}
+
